@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="ENOVA — uma nova forma de estudar para o ENEM.">
+
+  <title>ENOVA | Plataforma de estudos</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <aside class="sidebar">
+
+    <a class="brand" href="#" data-page="inicio">
+      <img src="assets/logo.png" alt="Mascote ENOVA">
+
+      <span>
+        <strong>ENOVA</strong>
+        <small>Seu futuro começa aqui</small>
+      </span>
+    </a>
+
+    <nav class="navigation" aria-label="Navegação principal">
+
+      <a href="#inicio" class="nav-link active" data-page="inicio">
+        <i class="fa-solid fa-house"></i>
+        Início
+      </a>
+
+      <a href="#questoes" class="nav-link" data-page="questoes">
+        <i class="fa-solid fa-book-open"></i>
+        Questões
+      </a>
+
+      <a href="#materias" class="nav-link" data-page="materias">
+        <i class="fa-solid fa-graduation-cap"></i>
+        Matérias
+      </a>
+
+      <a href="#sobre" class="nav-link" data-page="sobre">
+        <i class="fa-regular fa-heart"></i>
+        Sobre
+      </a>
+
+    </nav>
+
+    <div class="sidebar-bottom">
+
+      <div class="tip-card">
+        <i class="fa-solid fa-star"></i>
+
+        <h3>Você consegue!</h3>
+
+        <p>
+          Um pouquinho de estudo todos os dias faz diferença.
+        </p>
+      </div>
+
+      <small class="copyright">ENOVA © 2026</small>
+
+    </div>
+
+  </aside>
+
+  <main class="main-content">
+
+    <header class="topbar">
+
+      <div>
+        <span class="eyebrow">SUA JORNADA DE APRENDIZADO</span>
+        <h1 id="page-title">Início</h1>
+      </div>
+
+      <div class="profile">
+
+        <div class="profile-icon">
+          <i class="fa-solid fa-user-graduate"></i>
+        </div>
+
+        <span>
+          <strong>Estudante</strong>
+          <small>Futura aprovação!</small>
+        </span>
+
+      </div>
+
+    </header>
+
+    <!-- INÍCIO -->
+
+    <section id="inicio" class="page active">
+
+      <div class="hero">
+
+        <div class="hero-copy">
+
+          <span class="hero-label">OLÁ, ESTUDANTE! ✨</span>
+
+          <h2>
+            Seu futuro começa<br>
+            com um passo de cada vez.
+          </h2>
+
+          <p>
+            Pratique com questões de provas anteriores
+            e avance no seu ritmo.
+          </p>
+
+          <button class="primary-button" data-go="questoes">
+            Começar a estudar
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+
+        </div>
+
+        <img
+          class="hero-mascot"
+          src="assets/logo.png"
+          alt="Mascote estudante da ENOVA"
+        >
+
+        <span class="hero-sparkle sparkle-one">✦</span>
+        <span class="hero-sparkle sparkle-two">✧</span>
+
+      </div>
+
+      <div class="section-heading">
+
+        <div>
+          <h2>Explore as matérias</h2>
+          <p>Escolha uma área para começar.</p>
+        </div>
+
+      </div>
+
+      <div class="subject-grid">
+
+        <button class="subject-card languages" data-subject="languages">
+
+          <span class="subject-icon">
+            <i class="fa-solid fa-book"></i>
+          </span>
+
+          <strong>Linguagens</strong>
+
+          <small>Português, literatura e idiomas</small>
+
+          <span class="subject-action">
+            Estudar
+            <i class="fa-solid fa-arrow-right"></i>
+          </span>
+
+        </button>
+
+        <button class="subject-card humans" data-subject="human-sciences">
+
+          <span class="subject-icon">
+            <i class="fa-solid fa-earth-americas"></i>
+          </span>
+
+          <strong>Ciências Humanas</strong>
+
+          <small>História, geografia e filosofia</small>
+
+          <span class="subject-action">
+            Estudar
+            <i class="fa-solid fa-arrow-right"></i>
+          </span>
+
+        </button>
+
+        <button class="subject-card nature" data-subject="natural-sciences">
+
+          <span class="subject-icon">
+            <i class="fa-solid fa-flask"></i>
+          </span>
+
+          <strong>Ciências da Natureza</strong>
+
+          <small>Biologia, física e química</small>
+
+          <span class="subject-action">
+            Estudar
+            <i class="fa-solid fa-arrow-right"></i>
+          </span>
+
+        </button>
+
+        <button class="subject-card math" data-subject="mathematics">
+
+          <span class="subject-icon">
+            <i class="fa-solid fa-calculator"></i>
+          </span>
+
+          <strong>Matemática</strong>
+
+          <small>Raciocínio lógico e cálculos</small>
+
+          <span class="subject-action">
+            Estudar
+            <i class="fa-solid fa-arrow-right"></i>
+          </span>
+
+        </button>
+
+      </div>
+
+      <div class="section-heading">
+
+        <div>
+          <h2>Vamos praticar?</h2>
+          <p>Questões reais de edições anteriores do ENEM.</p>
+        </div>
+
+      </div>
+
+      <div class="practice-banner">
+
+        <div>
+          <h3>Seu próximo desafio está aqui!</h3>
+          <p>Escolha o ano e a área do conhecimento.</p>
+        </div>
+
+        <button class="primary-button" data-go="questoes">
+          Ver questões
+        </button>
+
+      </div>
+
+    </section>
+
+    <!-- QUESTÕES -->
+
+    <section id="questoes" class="page">
+
+      <div class="page-intro">
+
+        <span class="eyebrow">ÁREA DE ESTUDOS</span>
+
+        <h2>Banco de questões 📚</h2>
+
+        <p>
+          Pratique com questões de provas anteriores do ENEM.
+        </p>
+
+      </div>
+
+      <div class="filter-card">
+
+        <label class="filter-field">
+
+          Ano da prova
+
+          <select id="year">
+
+            <option value="2023" selected>2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+            <option value="2012">2012</option>
+            <option value="2011">2011</option>
+            <option value="2010">2010</option>
+            <option value="2009">2009</option>
+
+          </select>
+
+        </label>
+
+        <label class="filter-field">
+
+          Área do conhecimento
+
+          <select id="discipline">
+
+            <option value="mathematics">Matemática</option>
+
+            <option value="languages">Linguagens</option>
+
+            <option value="human-sciences">
+              Ciências Humanas
+            </option>
+
+            <option value="natural-sciences">
+              Ciências da Natureza
+            </option>
+
+          </select>
+
+        </label>
+
+        <label class="filter-field" id="language-group" style="display: none;">
+
+          Idioma
+
+          <select id="language">
+
+            <option value="portuguese">Português</option>
+            <option value="english">Inglês</option>
+            <option value="spanish">Espanhol</option>
+
+          </select>
+
+        </label>
+
+        <button id="search-button" class="primary-button">
+
+          <i class="fa-solid fa-magnifying-glass"></i>
+
+          Buscar questões
+
+        </button>
+
+      </div>
+
+      <p
+        id="question-status"
+        class="status-message"
+        role="status"
+        aria-live="polite"
+      >
+        Selecione o ano e a matéria para carregar as questões.
+      </p>
+
+      <div id="question-container"></div>
+
+    </section>
+
+    <!-- MATÉRIAS -->
+
+    <section id="materias" class="page">
+
+      <div class="page-intro">
+
+        <span class="eyebrow">CONHECIMENTO</span>
+
+        <h2>Áreas do conhecimento 🌷</h2>
+
+        <p>Conheça as quatro áreas cobradas no ENEM.</p>
+
+      </div>
+
+      <div class="subject-grid subject-grid-large">
+
+        <button class="subject-card languages" data-subject="languages">
+
+          <span class="subject-icon">
+            <i class="fa-solid fa-book"></i>
+          </span>
+
+          <strong>Linguagens</strong>
+
+          <small>
+            Português, literatura, artes, educação física e língua estrangeira.
+          </small>
+
+          <span class="subject-action">
+            Ver questões
+            <i class="fa-solid fa-arrow-right"></i>
+          </span>
+
+        </button>
+
+        <button class="subject-card humans" data-subject="human-sciences">
+
+          <span class="subject-icon">
+            <i class="fa-solid fa-earth-americas"></i>
+          </span>
+
+          <strong>Ciências Humanas</strong>
+
+          <small>
+            História, geografia, filosofia e sociologia.
+          </small>
+
+          <span class="subject-action">
+            Ver questões
+            <i class="fa-solid fa-arrow-right"></i>
+          </span>
+
+        </button>
+
+        <button class="subject-card nature" data-subject="natural-sciences">
+
+          <span class="subject-icon">
+            <i class="fa-solid fa-flask"></i>
+          </span>
+
+          <strong>Ciências da Natureza</strong>
+
+          <small>
+            Biologia, química e física.
+          </small>
+
+          <span class="subject-action">
+            Ver questões
+            <i class="fa-solid fa-arrow-right"></i>
+          </span>
+
+        </button>
+
+        <button class="subject-card math" data-subject="mathematics">
+
+          <span class="subject-icon">
+            <i class="fa-solid fa-calculator"></i>
+          </span>
+
+          <strong>Matemática</strong>
+
+          <small>
+            Matemática e suas tecnologias.
+          </small>
+
+          <span class="subject-action">
+            Ver questões
+            <i class="fa-solid fa-arrow-right"></i>
+          </span>
+
+        </button>
+
+      </div>
+
+    </section>
+
+    <!-- SOBRE -->
+
+    <section id="sobre" class="page">
+
+      <div class="about-card">
+
+        <img src="assets/logo.png" alt="Mascote ENOVA">
+
+        <span class="eyebrow">NOSSA PLATAFORMA</span>
+
+        <h2>Sobre a ENOVA 💛</h2>
+
+        <p>
+          A ENOVA é uma plataforma educacional criada para ajudar
+          estudantes na preparação para o Exame Nacional do Ensino Médio.
+        </p>
+
+        <p>
+          Nosso objetivo é tornar a prática de questões mais acessível,
+          organizada e divertida, permitindo que estudantes revisem
+          conteúdos e conheçam questões de provas anteriores.
+        </p>
+
+        <div class="about-highlight">
+
+          <i class="fa-solid fa-code"></i>
+
+          <div>
+            <strong>Tecnologias utilizadas</strong>
+            <p>HTML, CSS, JavaScript e API pública ENEM.dev.</p>
+          </div>
+
+        </div>
+
+        <div class="about-highlight">
+
+          <i class="fa-solid fa-book-open"></i>
+
+          <div>
+            <strong>Fonte das questões</strong>
+            <p>API ENEM.dev, com dados públicos de provas anteriores.</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <footer>
+
+      <span>
+        Feito com 💛 para transformar sonhos em conquistas.
+      </span>
+
+      <span>ENOVA © 2026</span>
+
+    </footer>
+
+  </main>
+
+  <script src="js/api.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
